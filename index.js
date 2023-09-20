@@ -1,4 +1,5 @@
 //Vonage UI Space
+//JS
 // DOM elements
 const chatMessages = document.querySelector('.chat-messages');
 const chatInput = document.querySelector('input[type="text"]');
