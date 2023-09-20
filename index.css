@@ -16,10 +16,6 @@ body {
     position: relative;
 }
 
-.video-container {
-    /* Style your video container as needed */
-}
-
 .chat-container {
     background-color: #f5f5f5;
     box-shadow: -20px 0 20px rgba(0, 0, 0, 0.1);
