@@ -1,4 +1,4 @@
-// Get the chat input field, send button, and chat messages container
+// JS - Get the chat input field, send button, and chat messages container
 const chatInput = document.querySelector('.chat-input');
 const sendButton = document.querySelector('.send-button');
 const chatMessages = document.querySelector('.chat-area');
