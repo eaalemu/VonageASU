@@ -75,4 +75,5 @@ function initializeSession() {
       session.publish(publisher, handleError);
     }
   });
+  
 }
