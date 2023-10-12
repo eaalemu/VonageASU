@@ -21,22 +21,7 @@
             top: 50px; /* Adjust the value as needed to move the content up */
         }
 
-        .app-main {
-            /* Your existing styles for app-main */
-        }
-
-        .video-call-wrapper {
-            /* Your existing styles for video-call-wrapper */
-        }
-
-        .right-side {
-            /* Your existing styles for right-side */
-        }
-
-        .video-call-actions {
-            /* Your existing styles for video-call-actions */
-        }
-
+       
         .chat-container {
             background-color: maroon; /* Change chat container background color */
             border-radius: 10px;
@@ -44,18 +29,37 @@
             flex-direction: column;
             height: 100%;
         }
+        
     </style>
 </head>
 <body>
+        <img src="/Users/deepikauppalapati/Desktop/VonageASU/icons/lefticon.webp" alt="Your Icon" class="top-left-icon">
+        <div class="vertical-line"></div>
+        <div class="vertical-line2"></div>
+        <!-- Rest of your code -->
+        <!-- Meeting Bar -->
+        <!-- ... (existing code) -->
+    
     <!-- Meeting Bar -->
     <div class="meeting-bar">
-        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="feather feather-video meeting-icon">
-            <circle cx="24" cy="24" r="22"></circle>
-            <path d="M24 2v20M36 18l5-5-5-5M10 18l-5-5 5-5"></path>
-        </svg>
-        <span class="meeting-text">Weekly Meeting</span>
-        <span class="meeting-time">Sep 29th 2023| 4:00pm</span>
+        <div class="profile-image">
+            <img src="/Users/deepikauppalapati/Desktop/VonageASU/icons/4.jpeg" alt="Profile Image">
+        </div>
+        <span class="meeting-text">Weekly Meeting </span>
+        <span class="meeting-time"> Sep 29th 2023 | 4:00pm</span>
+        <div class="person-info">
+            <span class="person-name">Adam Joseph</span>
+            <span class="person-title">Mental Health Professional</span>
+            <div class="dots">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+       
+       
     </div>
+
     <!-- Meeting Bar -->
 
     <div class="app-container">
@@ -87,8 +91,12 @@
             <div class="participants-container">
                 <div class = "participants-header">
                     <button class ="participants-header-button">Participants</button>
+                    
                 </div>
                 <div class = "participants-list">
+                    <div class ="Participants">
+                        <button class = "first-participant">Participant 1</span>
+                    </div>
                     <!--Participants list goes-->
                 </div>
             </div>
